@@ -9,8 +9,13 @@ var http = require('http').Server(app);
 
 // TODO: import database config
 
+var bodyParser = require('body-parser');
+
 // Serve up static files from public folder
 app.use(express.static(__dirname + '/public'));
+
+// Add body-parser middleware to Express
+app.use(bodyParser.json());
 
 // TODO: set up API routes
 
