@@ -1,0 +1,25 @@
+{
+  "name": "meditationTracker",
+  "version": "0.0.1",
+  "description": "A timer and tracker for meditation",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha spec/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alicekamada/meditation-tracker.git"
+  },
+  "keywords": [
+    "health",
+    "meditation",
+    "timer",
+    "tracker"
+  ],
+  "author": "Cassandra Cruz <celkamada@gmail.com> (http://alicekamada.github.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alicekamada/meditation-tracker/issues"
+  },
+  "homepage": "https://github.com/alicekamada/meditation-tracker"
+}
