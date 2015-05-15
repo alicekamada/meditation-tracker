@@ -4,6 +4,8 @@
   "description": "A timer and tracker for meditation",
   "main": "src/app.js",
   "scripts": {
+    "lint": "jshint **/*.js",
+    "pretest": "npm run lint",
     "test": "mocha spec/"
   },
   "repository": {
