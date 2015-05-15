@@ -2,7 +2,7 @@
   "name": "meditationTracker",
   "version": "0.0.1",
   "description": "A timer and tracker for meditation",
-  "main": "src/app.js",
+  "main": "index.js",
   "scripts": {
     "lint": "jshint **/*.js",
     "pretest": "npm run lint",
